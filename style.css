@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer,
+.hero-section {
+  background-color: #1f2937;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  padding-top: 50px;
+}
+
+.secondary-text,
+.link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+li.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-right: auto;
+  font-weight: 900;
+}
+
+.hero-section {
+  padding: 10px 200px 200px 200px;
+}
