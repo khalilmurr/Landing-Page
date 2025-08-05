@@ -57,13 +57,74 @@ button {
   height: 40px;
 }
 
-
 .header-img {
   float: right;
   padding-top: 60px;
   padding-right: 90px;
 }
 
-h2 {
+.information-section > h2 {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.information-section {
+  margin: 30px 0px 100px 0px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.inner-container p {
+  text-align: center;
+}
+
+.quote-section {
+  padding: 90px 0px;
+  padding-bottom: 60px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 30px;
+  font-style: normal;
+  text-align: right;
+  padding-right: 550px;
+}
+
+.call-to-action {
+  display: flex;
+  margin: 80px auto;
+  
+  width: 1300px;
+  height: auto;
+  background-color: #3882f6;
+  
+  color: #f9faf8;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+.call-to-action button {
+  margin-left: auto;
+  border: 2px solid #e5e7eb
+}
+
+footer {
+  color: #e5e7eb
 }
